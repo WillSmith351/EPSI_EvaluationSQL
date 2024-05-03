@@ -16,7 +16,7 @@ SELECT
     start_date
 FROM WORKERS_FACTORY_2
 WHERE end_date IS NULL
-ORDER BY start_date DESC;
+ORDER BY start_date ASC;
 
 ---Partie 2
 
